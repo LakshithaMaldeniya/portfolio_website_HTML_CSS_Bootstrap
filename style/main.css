@@ -1,0 +1,115 @@
+/*Home Page*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-outer {
+    display: flex;
+    width: 98.78vw;
+    height: 100vh;
+}
+
+.nav-outer {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 13, 65, 1.0);
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width: 750px) {
+    .nav-outer {
+        display: none;
+
+    }
+}
+
+/*Image box*/
+
+.image-box {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-image: url("../images/profileImage.png");
+    background-size: cover;
+}
+
+/*Nav Bar */
+
+.image-outer {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box > image {
+    position: absolute;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 60vh;
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, .15);
+    margin: 10px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, .2) 5px 5px;
+}
+
+.nav-bar > ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar > ul > li {
+    margin-top: 20px;
+}
+
+.nav-bar > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/*About Content*/
+.Content {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.About{
+    background-image: url("https://img.freepik.com/free-vector/gradient-isometric-laptop-technology-background_52683-4502.jpg?w=740&t=st=1685469623~exp=1685470223~hmac=6c93c7ffcf4ae95da4775655bbd8a245cadc703f01e4c5e3a2dff0b32d9f52cc");
+}
+
+.content-inner{
+    display: flex;
+    margin-left: 260px;
+    /*border: 1px solid red;*/
+    width: 80%;
+    height: 97%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.home-inner{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.content-left{
+    border: 1px solid red;
+}
+
+.content-right{
+    border: 1px solid red;
+    flex: 1;
+}
