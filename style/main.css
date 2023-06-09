@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .page-outer {
@@ -19,11 +20,17 @@
     flex-direction: column;
 
 }
+.nav-hidden{
+    width: 250px;
+    height: 100vh;
+}
 
-@media (max-width: 750px) {
+@media (max-width: 950px) {
     .nav-outer {
         display: none;
-
+    }
+    .nav-hidden{
+        display: none;
     }
 }
 
@@ -82,23 +89,20 @@
 
 /*About Content*/
 .Content {
-    width: 100%;
     background-size: cover;
     background-attachment: fixed;
+    flex: 1;
 }
 .About{
-    background-image: url("https://img.freepik.com/free-vector/gradient-isometric-laptop-technology-background_52683-4502.jpg?w=740&t=st=1685469623~exp=1685470223~hmac=6c93c7ffcf4ae95da4775655bbd8a245cadc703f01e4c5e3a2dff0b32d9f52cc");
+    background-image: url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=740&t=st=1686330836~exp=1686331436~hmac=ba3c2bfe3a0168171d80a7171c8c9c6f0d4b878109d47569767fcd022ebfaef0");
 }
 
 .content-inner{
     display: flex;
-    margin-left: 260px;
+    margin: 10px;
     /*border: 1px solid red;*/
-    width: 80%;
+    width: 98%;
     height: 97%;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
 
 }
 .home-inner{
@@ -106,10 +110,112 @@
 }
 
 .content-left{
-    border: 1px solid red;
+    width: auto;
+    height: auto;
 }
 
 .content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
     border: 1px solid red;
     flex: 1;
+}
+
+
+
+/*about-left*/
+.h3{
+    color: black;
+    margin-top: 75px;
+    margin-left: 40px;
+}
+
+@media (max-width: 950px) {
+    .h3{
+        margin-top: 20px;
+    }
+}
+
+.h1{
+    color: black;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.h31{
+    color: black;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.span1{
+    color: rgba(0, 13, 65, 1.0);
+    font-weight: bold;
+}
+
+
+
+.introductionme{
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 450;
+    color: black;
+    margin-left: 40px;
+    width: auto;
+    max-width: 600px;
+    justify-content: center;
+    height: auto;
+    overflow-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.social-media{
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media a{
+    border: 1px solid rgba(0, 13, 65, 1.0);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgba(0, 13, 65, 1.0) ;
+}
+
+.social-media a:hover{
+    background-color:rgba(0, 13, 65, 1.0);
+    color: white;
+    border: 2px solid white;
+}
+
+.button-downloadCV{
+    margin-left: 105px;
+    margin-top: 20px;
+}
+/*=========content right=========*/
+.image{
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+    background-image: url("https://img.freepik.com/premium-vector/programmer-focused-work-project-while-sitting-easy-chair_569013-330.jpg?w=740");
+    background-size: cover;
+}
+@media (max-width: 1050px) {
+    .image{
+        display: none;
+    }
 }
