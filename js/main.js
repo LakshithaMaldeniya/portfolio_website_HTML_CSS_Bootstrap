@@ -33,5 +33,40 @@ function reverl2(){
         }else {
             reverl2[i].classList.remove('active2');
         }
+
+    }
+}
+
+window.addEventListener("scroll",reverl3);
+function reverl3(){
+    const reverl3=document.querySelectorAll(".touch");
+
+    for (let i=0; i<reverl3.length;i++){
+        var windowheight3 = window.innerHeight;
+        var reverltop3 = reverl3[i].getBoundingClientRect().top;
+        var reverlpoint3 =1;
+
+        if (reverltop3 <windowheight3-reverlpoint3){
+            reverl3[i].classList.add('active3');
+        }else {
+            reverl3[i].classList.remove('active3');
+        }
+    }
+}
+
+window.addEventListener("scroll",reverl4);
+function reverl4(){
+    const reverl4=document.querySelectorAll(".blogbox");
+
+    for (let i=0; i<reverl4.length;i++){
+        var windowheight4 = window.innerHeight;
+        var reverltop4 = reverl4[i].getBoundingClientRect().top;
+        var reverlpoint4 =1;
+
+        if (reverltop4 <windowheight4-reverlpoint4){
+            reverl4[i].classList.add('active4');
+        }else {
+            reverl4[i].classList.remove('active4');
+        }
     }
 }
