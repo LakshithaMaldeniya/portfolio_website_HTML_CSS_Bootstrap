@@ -1,0 +1,195 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-head-txt{
+    margin-top: 10px;
+    color: rgba(0, 13, 65, 1.0);
+    font-weight: 800;
+}
+.main-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+/*======================SLIDER CSS========================*/
+
+.slider-outer{
+    width: 70%;
+    height: auto;
+    max-height: 440px;
+    margin-left:15%;
+    border:5px solid rgba(0, 13, 65, 1.0);
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    /*position: absolute;*/
+}
+
+/*======================SLIDER CSS========================*/
+.slider-background{
+    width: 98vw;
+    overflow: hidden;
+}
+.project-intro{
+    width: 97%;
+    height: auto;
+    margin-left: 30px;
+}
+.sld-bc-pic{
+    height: auto;
+    width: 100%;
+}
+.github-link{
+    display: flex;
+}
+.icongh{
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    background-image: url("../imags/project1 images/github.png");
+}
+.git-link{
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.linkgh{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-content {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 13, 65, 1.0);
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+
+.right-side {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.skill-line {
+    width: 97%;
+    height: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 0;
+}
+
+.skill-name {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.skill-rate {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.touch {
+    height: 100%;
+    width: 0%;
+    background-color: #030681;
+    transition: all 2s ease;
+}
+.only-skill{
+    display: flex;
+    margin-top: 15px;
+}
+.github-box{
+    margin: 15px;
+}
+
+.intelij-box{
+    margin: 15px;
+}
+
+
+.html.active3 {
+    width: 40%;
+}
+
+.css.active3 {
+    width: 50%;
+}
+
+.js.active3 {
+    width: 5%;
+}
+
+.bootstrap.active3 {
+    width: 5%;
+}
+
+.tech-hed {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.gap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.frontend-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-hed {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.intro-body-txt{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.intro-body-box{
+    margin-right: 15px;
+}
+
+.intro-hedding{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}

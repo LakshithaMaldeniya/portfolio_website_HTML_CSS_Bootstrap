@@ -275,10 +275,24 @@
     border: 2px solid white;
 }
 
-.button-downloadCV {
-    margin-left: 105px;
-    margin-top: 20px;
+.Downloadcv{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgba(0, 13, 65, 1.0);
+    font-weight: 800;
+    margin-bottom: 20px;
 }
+
+.Downloadcv:hover{
+    background-color: rgba(0, 13, 65, 1.0);
+    color: white;
+    border: 2px solid white;
+}
+
+
 
 /*=========content right=========*/
 .image {
@@ -505,7 +519,6 @@
 .txtproject {
     width: auto;
     margin: 0;
-    /*margin-left: 35px;!important;*/
 }
 
 .project-inner {
@@ -517,7 +530,6 @@
 
 .project-box {
     position: relative;
-    /*border: 1px solid red;*/
     height: 200px;
     margin: 20px;
     background-size: cover;
@@ -536,7 +548,7 @@
 }
 
 .project1 {
-    background-image: url("https://www.trio.dev/hubfs/project-management.webp");
+    background-image: url("../projects/imags/project1 images/1.png");
 }
 
 .project2 {
@@ -595,15 +607,17 @@
     color: black;
     margin-top: 15px;
     font-size: 18px;
+    display: none;
     z-index: 1;
 }
 
 .project-intro {
     display: none;
     color: black;
-    margin-top: 10px;
     font-size: 14px;
     z-index: 1;
+    margin: 20px 10px;
+    text-align: center;
 }
 
 .project-box a {
@@ -617,6 +631,7 @@
 
 .project-box:hover .project-name {
     color: white;
+    display: block;
 }
 
 .project-box:hover .project-intro {
@@ -677,23 +692,23 @@
 /*============Skill Started==============*/
 .skill-content {
     margin-top: 10px;
+    padding-top: 30px;
     display: flex;
     width: 98%;
     height: auto;
     margin-left: 15px;
-    /*border: 1px solid black;*/
     border-radius: 20px;
     background-color: rgba(44, 62, 80, 0.2);
 }
 
 .left-side {
-    width: 48%;
+    width: 35%;
     height: 100%;
-    margin: 20px;
+    margin: 10px;
 }
 
 .right-side {
-    width: 48%;
+    width: 35%;
     height: 100%;
     margin: 20px;
 }
@@ -701,9 +716,7 @@
 .skill-bar {
     width: 100%;
     height: 60px;
-    margin-top: 5px;
     padding: 5px;
-    /*border: 0.1px solid black;*/
 }
 
 .info {
@@ -717,8 +730,8 @@
 }
 
 .skill-line {
-    width: 98%;
-    height: 12px;
+    width: 97%;
+    height: 5px;
     border: 1px solid black;
     border-radius: 25px;
     margin: 0;
@@ -797,16 +810,79 @@
     width: 70%;
 }
 
+.sdja.active3 {
+    width: 70%;
+}
+
+.node.active3 {
+    width: 55%;
+}
+
+.MongoDB.active3 {
+    width: 55%;
+}
+
+.inteliJ.active3 {
+    width: 75%;
+}
+
 .skillheadtxt {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 .skill-intro {
     margin-left: 30px;
-    margin-top: 20px;
     font-size: 16px;
     font-weight: 600;
+    margin-top: 10px;
 }
+
+.vcstxt {
+    margin-top: 27px;
+}
+
+.tech-hed {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.gap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h5txt {
+    margin-top: 10px;
+}
+
+.frontend-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-hed {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+    .skill-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-side {
+        width: 90%;
+    }
+}
+
+/*============blog Strated====================*/
 
 .bloginner {
     flex-direction: column;
@@ -1072,6 +1148,31 @@
     height: 50px;
 }
 
-.h5txt{
-    margin-top: 10px;
+@media (max-width: 850px) {
+    .right-form {
+        display: none;
+        position: absolute;
+    }
+
+    .left-form {
+        width: 100%;
+    }
+
 }
+
+@media (max-width: 900px) {
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    body{
+        margin-left: -20px;
+    }
+
+    .contentExperiance{
+        margin-left: -50px;
+    }
+}
+
