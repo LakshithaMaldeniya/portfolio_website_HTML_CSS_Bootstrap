@@ -8,7 +8,7 @@
 .page-outer {
     display: flex;
     width: 98.78vw;
-    height: auto;
+    height: 100vh;
 }
 
 .nav-outer {
@@ -56,7 +56,6 @@
     border-radius: 100%;
     background-image: url("../images/profile picture.png");
     background-size: cover;
-    /*border: 1px solid red;*/
 }
 
 .imageboxouter {
@@ -66,40 +65,7 @@
     width: 160px;
     height: 160px;
     border-radius: 100%;
-    animation: animate 4s infinite linear;
-    /*border: 5px solid red;*/
 }
-
-@keyframes animate {
-    0% {
-        width: 163px;
-        height: 163px;
-        border: 0px solid #030681;
-    !important;
-    }
-
-    50% {
-        width: 200px;
-        height: 200px;
-        border: 6px solid #030681;
-    !important;
-    }
-
-    75% {
-        width: 220px;
-        height: 220px;
-        border: 3px solid #030681;
-    !important;
-    }
-    100% {
-        width: 240px;
-        height: 240px;
-        border: 0px;
-    !important;
-    }
-
-}
-
 
 /*Nav Bar */
 
@@ -155,6 +121,19 @@
 
 .About {
     height: auto;
+    position: relative;
+}
+
+.bacground{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 
@@ -552,7 +531,7 @@
 }
 
 .project2 {
-    background-image: url("https://www.trio.dev/hubfs/project-management.webp");
+    background-image: url("/projects/imags/project 2 images/product.png");
 
 }
 
@@ -1047,6 +1026,7 @@
     margin-top: -150px;
     z-index: 1;
     background-color: white;
+    border-radius: 10px;
 }
 
 .replace {
@@ -1098,6 +1078,7 @@
 }
 
 .data {
+    border-radius: 5px;
     width: 90%;
     height: 30px;
     margin: 15px;
