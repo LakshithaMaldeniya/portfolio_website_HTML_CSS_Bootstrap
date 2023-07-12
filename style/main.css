@@ -531,12 +531,12 @@
 }
 
 .project2 {
-    background-image: url("/projects/imags/project 2 images/product.png");
+    background-image: url("../projects/imags/project 2 images/product.png");
 
 }
 
 .project3 {
-    background-image: url("/projects/imags/project3 images/FRNT END 1.png");
+    background-image: url("../projects/imags/project3 images/FRNT END 1.png");
 
 }
 
