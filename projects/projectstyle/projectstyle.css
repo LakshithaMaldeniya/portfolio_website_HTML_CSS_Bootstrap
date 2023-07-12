@@ -193,3 +193,8 @@ section {
     margin-bottom: 15px;
     font-weight: 700;
 }
+
+.highlight{
+    font-weight: 1000;
+    color: black;
+}
