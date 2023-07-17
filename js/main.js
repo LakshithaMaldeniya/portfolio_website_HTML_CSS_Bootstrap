@@ -56,7 +56,7 @@ function reverl3(){
 
 window.addEventListener("scroll",reverl4);
 function reverl4(){
-    const reverl4=document.querySelectorAll(".blogbox");
+    const reverl4=document.querySelectorAll(".skill-box");
 
     for (let i=0; i<reverl4.length;i++){
         var windowheight4 = window.innerHeight;
