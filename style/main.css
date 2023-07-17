@@ -819,7 +819,7 @@
 }
 
 .vcstxt {
-    margin-top: 27px;
+    margin-top: 40px;
 }
 
 .tech-hed {
@@ -987,16 +987,7 @@
     height: 330px;
 }
 
-.blogbox {
-    transform: translateX(500px);
-    opacity: 0;
-    transition: all 2s ease;
-}
 
-.active4 {
-    transform: translateX(0px);
-    opacity: 1;
-}
 
 .pichedtxt {
     font-size: 20px;
@@ -1157,3 +1148,122 @@
     }
 }
 
+.skill-box{
+    padding-left: 50px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    }
+
+
+.logo-tag{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin: 10px;
+}
+.name-tag{
+    font-weight: 800;
+    margin: 10px;
+}
+
+.mtml-logo{
+    background-image: url("../images/html5.svg");
+}
+
+.css-logo{
+    background-image: url("../images/css3-alt.svg");
+}
+
+.js-logo{
+    background-image: url("../images/js.svg");
+}
+
+.sass-logo{
+    background-image: url("../images/sass.svg");
+}
+
+.jfx-logo{
+    background-image: url("../images/jfx.svg");
+}
+
+.bstrap-logo{
+    background-image: url("../images/bootstrap.svg");
+}
+
+.java-logo{
+    background-image: url("../images/java-svgrepo-com.svg");
+}
+
+.spring-logo{
+    background-image: url("../images/spring.svg");
+}
+
+.spboot-logo{
+    background-image: url("../images/spring boot.svg");
+}
+
+.hiber-logo{
+    background-image: url("../images/hibernate-svgrepo-com.svg");
+}
+
+.jpa-logo{
+    background-image: url("../images/spring-svgrepo-com (1).svg");
+}
+
+.security-logo{
+    background-image: url("../images/spring-svgrepo-com (1).svg");
+}
+
+.webmvc-logo{
+    background-image: url("../images/spring-svgrepo-com (1).svg");
+}
+
+.mstrct-logo{
+    background-image: url("../images/mapstruct.png");
+}
+
+.msql-logo{
+    background-image: url("../images/mysql-svgrepo-com.svg");
+}
+
+.hidi-logo{
+    background-image: url("../images/hidi.jpg");
+}
+
+.mdb-logo{
+    background-image: url("../images/mongodb-svgrepo-com.svg");
+}
+
+.git-logo{
+    background-image: url("../images/github-142-svgrepo-com.svg");
+}
+
+.ide-logo{
+    background-image: url("../images/IntelliJ_IDEA_Icon.svg.png");
+}
+
+.ts-logo{
+    background-image: url("../images/typescript-16-svgrepo-com.svg");
+}
+
+.angulr-logo{
+    background-image: url("../images/angular-svgrepo-com.svg");
+}
+
+.skill-box {
+    transform: translateX(500px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.active4 {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.skill-box:hover{
+    border: 2px solid black;
+}
